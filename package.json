@@ -1,5 +1,16 @@
 {
-  "dependencies": {
-    "framer-motion": "^12.23.12"
+  "name": "my_web_portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://Chandru6607.github.io/my_web_portfolio",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
