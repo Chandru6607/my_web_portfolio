@@ -1,0 +1,21 @@
+* text=auto
+
+# Treat images and other binaries as binary so Git won't try to normalize line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# SVGs are text but ensure LF endings for consistency
+*.svg text eol=lf
+
+# Lockfiles and package manager files
+package-lock.json lockfile
+
+# Ensure common config files keep LF
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.xml text eol=lf
