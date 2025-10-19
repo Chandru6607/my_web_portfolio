@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Portfolio Design System - Modern Tech Theme */
+
+@layer base {
+  :root {
+    --background: 220 20% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 15% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 15% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 195 100% 60%;
+    --primary-foreground: 220 20% 8%;
+
+    --secondary: 240 15% 20%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 240 10% 25%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 280 60% 65%;
+    --accent-foreground: 220 20% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 15% 20%;
+    --input: 240 15% 20%;
+    --ring: 195 100% 60%;
+
+    --radius: 0.75rem;
+    
+    /* Portfolio specific colors */
+    --hero-bg: linear-gradient(135deg, hsl(220 20% 8%) 0%, hsl(240 20% 12%) 50%, hsl(260 30% 15%) 100%);
+    --section-bg: hsl(220 15% 12%);
+    --gradient-primary: linear-gradient(135deg, hsl(195 100% 60%), hsl(280 60% 65%));
+    --gradient-accent: linear-gradient(90deg, hsl(195 100% 60% / 0.1), hsl(280 60% 65% / 0.1));
+    --glow-primary: 0 0 40px hsl(195 100% 60% / 0.3);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Using same dark theme for consistency */
+    --background: 220 20% 8%;
+    --foreground: 210 40% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .hero-gradient {
+    background: var(--hero-bg);
+  }
+  
+  .section-bg {
+    background: var(--section-bg);
+  }
+  
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glow-effect {
+    box-shadow: var(--glow-primary);
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+}

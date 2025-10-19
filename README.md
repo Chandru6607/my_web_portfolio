@@ -6,9 +6,9 @@
 
 Hey there! I’m **Chandru**, a passionate tech enthusiast and problem solver specializing in:
 
-- 🤖 Artificial Intelligence & Machine Learning  
-- 🌐 Web Development & UI/UX  
-- 🧠 Deep Learning & Data Science  
+- 🤖 Artificial Intelligence & Machine Learning
+- 🌐 Web Development & UI/UX
+- 🧠 Deep Learning & Data Science
 - 🛰️ Robotics & Embedded Systems
 
 This website is a living showcase of **who I am**, **what I’ve built**, and **where I’m headed**.
@@ -20,9 +20,9 @@ This website is a living showcase of **who I am**, **what I’ve built**, and **
 Dive into my real-world applications and hands-on projects, crafted with care and curiosity.  
 Each project includes:
 
-- ✅ Description of the problem solved  
-- 🧩 Tools and tech used  
-- 💡 Key learnings and takeaways  
+- ✅ Description of the problem solved
+- 🧩 Tools and tech used
+- 💡 Key learnings and takeaways
 
 ---
 
@@ -31,10 +31,10 @@ Each project includes:
 I believe in continuous learning and upskilling.  
 Here are some of the key certifications I’ve earned:
 
-- 📜 NPTEL – Machine Learning  
-- 💡 GradTwin IT Solutions -ML Intern 
-- 📚 Marketing Internship with Skill Vertex  
-- 🎓 Springer ICICC Conference – Co-Author Presentation  
+- 📜 NPTEL – Machine Learning
+- 💡 GradTwin IT Solutions -ML Intern
+- 📚 Marketing Internship with Skill Vertex
+- 🎓 Springer ICICC Conference – Co-Author Presentation
 
 > 💼 These certifications reflect my dedication to mastering both theory and practice.
 
@@ -45,10 +45,10 @@ Here are some of the key certifications I’ve earned:
 Let’s **collaborate**, **build**, or just **chat tech**!  
 Whether it's a startup idea, open-source project, or research initiative — I'm all ears.
 
-📧 **Email**: chandru2003113@gmail.com.com  
-🐙 **GitHub**: github.com/Chandru6607  
+📧 **Email**: chandru2003113@gmail.com  
+🐙 **GitHub**: github.com/Chandru6607
 
-> 🤝 *Open for collaborations, internships, and freelance opportunities!*
+> 🤝 _Open for collaborations, internships, and freelance opportunities!_
 
 ---
 
