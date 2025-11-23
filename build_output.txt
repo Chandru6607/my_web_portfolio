@@ -1,0 +1,33 @@
+
+> my_web_portfolio@1.0.0 build
+> vite build
+
+[36mvite v7.1.10 [32mbuilding for production...[36m[39m
+(node:9592) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/chand/Downloads/Linux%20Downloads/my_web_portfolio/Chandru_Portfolio/postcss.config.js?t=1763923033980 is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\chand\Downloads\Linux Downloads\my_web_portfolio\Chandru_Portfolio\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+transforming...
+[32mΓ£ô[39m 3 modules transformed.
+Γ£ù Build failed in 291ms
+error during build:
+[vite:css] Failed to load PostCSS config (searchPath: C:/Users/chand/Downloads/Linux Downloads/my_web_portfolio/Chandru_Portfolio): [Error] Loading PostCSS Plugin failed: Cannot find module '../lightningcss.win32-ia32-msvc.node'
+Require stack:
+- C:\Users\chand\Downloads\Linux Downloads\my_web_portfolio\Chandru_Portfolio\node_modules\lightningcss\node\index.js
+- C:\Users\chand\Downloads\Linux Downloads\my_web_portfolio\Chandru_Portfolio\node_modules\@tailwindcss\node\dist\index.js
+- C:\Users\chand\Downloads\Linux Downloads\my_web_portfolio\Chandru_Portfolio\node_modules\@tailwindcss\postcss\dist\index.js
+
+(@C:\Users\chand\Downloads\Linux Downloads\my_web_portfolio\Chandru_Portfolio\postcss.config.js)
+Error: Loading PostCSS Plugin failed: Cannot find module '../lightningcss.win32-ia32-msvc.node'
+Require stack:
+- C:\Users\chand\Downloads\Linux Downloads\my_web_portfolio\Chandru_Portfolio\node_modules\lightningcss\node\index.js
+- C:\Users\chand\Downloads\Linux Downloads\my_web_portfolio\Chandru_Portfolio\node_modules\@tailwindcss\node\dist\index.js
+- C:\Users\chand\Downloads\Linux Downloads\my_web_portfolio\Chandru_Portfolio\node_modules\@tailwindcss\postcss\dist\index.js
+
+(@C:\Users\chand\Downloads\Linux Downloads\my_web_portfolio\Chandru_Portfolio\postcss.config.js)
+    at load$1 (file:///C:/Users/chand/Downloads/Linux%20Downloads/my_web_portfolio/Chandru_Portfolio/node_modules/vite/dist/node/chunks/dep-B0GuR2De.js:8507:10)
+    at async Promise.all (index 0)
+    at async plugins (file:///C:/Users/chand/Downloads/Linux%20Downloads/my_web_portfolio/Chandru_Portfolio/node_modules/vite/dist/node/chunks/dep-B0GuR2De.js:8529:11)
+    at async processResult (file:///C:/Users/chand/Downloads/Linux%20Downloads/my_web_portfolio/Chandru_Portfolio/node_modules/vite/dist/node/chunks/dep-B0GuR2De.js:8568:13)
+file: C:/Users/chand/Downloads/Linux Downloads/my_web_portfolio/Chandru_Portfolio/src/index.css
+
