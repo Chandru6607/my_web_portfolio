@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section 
+    <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
         background: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(20, 20, 30, 0.8)), url(${darkHeroBg})`,
@@ -18,30 +18,30 @@ const HeroSection = () => {
       {/* Animated particles */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary rounded-full animate-float"></div>
-        <div className="absolute top-1/3 right-1/3 w-1 h-1 bg-accent rounded-full animate-float" style={{animationDelay: '1s'}}></div>
-        <div className="absolute bottom-1/3 left-1/3 w-3 h-3 bg-primary/50 rounded-full animate-float" style={{animationDelay: '2s'}}></div>
+        <div className="absolute top-1/3 right-1/3 w-1 h-1 bg-accent rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-1/3 left-1/3 w-3 h-3 bg-primary/50 rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
       </div>
-      
+
       <div className="container mx-auto px-6 z-10 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Profile Image */}
-          <motion.div 
+          <motion.div
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5 }}
             className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-primary to-accent p-1"
           >
             <div className="w-full h-full rounded-full overflow-hidden">
-              <img 
-                src={profilePhoto} 
-                alt="Chandru S" 
+              <img
+                src={profilePhoto}
+                alt="Chandru S"
                 className="w-full h-full object-cover"
               />
             </div>
           </motion.div>
-          
+
           {/* Main Content */}
-          <motion.h1 
+          <motion.h1
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -49,8 +49,8 @@ const HeroSection = () => {
           >
             <span className="gradient-text">Chandru S</span>
           </motion.h1>
-          
-          <motion.h2 
+
+          <motion.h2
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
@@ -58,19 +58,19 @@ const HeroSection = () => {
           >
             Full Stack Developer & Software Engineer
           </motion.h2>
-          
-          <motion.p 
+
+          <motion.p
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed"
           >
-            Passionate about creating innovative solutions and building scalable applications. 
+            Passionate about creating innovative solutions and building scalable applications.
             Experienced in modern web technologies and cloud platforms.
           </motion.p>
-          
+
           {/* CTA Buttons */}
-          <motion.div 
+          <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
@@ -83,22 +83,22 @@ const HeroSection = () => {
               </a>
             </Button>
             <Button variant="glass" size="lg" className="gap-2" asChild>
-              <a href="/assets/chandru_resume.pdf" download>
+              <a href="/resume/resume_omniverse.pdf" download="Chandru_Resume.pdf">
                 <Download className="w-5 h-5" />
                 Download CV
               </a>
             </Button>
           </motion.div>
-          
+
           {/* Social Links */}
-          <motion.div 
+          <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.6 }}
             className="flex justify-center gap-6 mb-16"
           >
-            <a 
-              href="https://linkedin.com/in/chandru-s-596195225" 
+            <a
+              href="https://linkedin.com/in/chandru-s-596195225"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visit LinkedIn Profile"
@@ -106,8 +106,8 @@ const HeroSection = () => {
             >
               <Linkedin className="w-6 h-6 text-primary" />
             </a>
-            <a 
-              href="https://github.com/Chandru6607" 
+            <a
+              href="https://github.com/Chandru6607"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visit GitHub Profile"
@@ -115,7 +115,7 @@ const HeroSection = () => {
             >
               <Github className="w-6 h-6 text-primary" />
             </a>
-            <a 
+            <a
               href="mailto:chandru2003113@gmail.com"
               aria-label="Send Email"
               className="p-3 rounded-full bg-card/10 backdrop-blur-md border border-primary/20 hover:bg-card/20 hover:border-primary/40 transition-all duration-300 hover:scale-110"
@@ -124,7 +124,7 @@ const HeroSection = () => {
             </a>
           </motion.div>
         </div>
-        
+
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <ArrowDown className="w-6 h-6 text-primary" />
